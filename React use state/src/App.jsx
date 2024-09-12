@@ -1,8 +1,11 @@
-import React from 'react'
+
+import Value from './value'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Value />
+    </div>
   )
 }
 
