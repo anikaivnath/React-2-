@@ -17,8 +17,7 @@ return (
     <div className='text-slate-50 text-center '>
     <button onClick={increase}  className='bg-red-800 white m-5 px  p-3 rounded-lg'>Increase+1</button>
     <button onClick={decrease} className='bg-red-800 p-3 rounded-lg'>Decrease -1</button>
-    <p className='text-zinc-950 text-center'>Value is {value}</p>
-
+    <p className="text-zinc-950 bg-cyan-700 m-auto w-32 p-4 text-slate-100 rounded-lg text-center mt-5">  Value is {value}</p>
     </div>
 
     </>
